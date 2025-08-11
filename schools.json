@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Sunrise International School",
+    "location": "New Cairo",
+    "curriculum": "American",
+    "fees": "120,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Elite Scholars Academy",
+    "location": "Sheikh Zayed",
+    "curriculum": "British",
+    "fees": "95,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Future Leaders School",
+    "location": "Nasr City",
+    "curriculum": "National",
+    "fees": "45,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "International Horizon Academy",
+    "location": "6th October",
+    "curriculum": "IB",
+    "fees": "130,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Bright Minds School",
+    "location": "Maadi",
+    "curriculum": "American",
+    "fees": "100,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Pioneers British School",
+    "location": "Heliopolis",
+    "curriculum": "British",
+    "fees": "88,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "New Era Language School",
+    "location": "Zamalek",
+    "curriculum": "National",
+    "fees": "55,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Al Andalus Islamic School",
+    "location": "Alexandria",
+    "curriculum": "Islamic",
+    "fees": "40,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "STEM Innovators School",
+    "location": "Smart Village",
+    "curriculum": "STEM",
+    "fees": "75,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Global Scholars High",
+    "location": "Tagamoa",
+    "curriculum": "American",
+    "fees": "110,000 EGP",
+    "image": "https://via.placeholder.com/150"
+  }
+]

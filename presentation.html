@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App Presentation - iPhone 13 Pro Max</title>
+  <style>
+    body {
+      background: #e5e5e5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+      overflow: hidden;
+    }
+
+    .iphone {
+      width: 430px;
+      height: 932px;
+      border: 16px solid #000;
+      border-radius: 60px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+      position: relative;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .notch {
+      width: 210px;
+      height: 30px;
+      background: #000;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 44px;
+
+      /* Scroll like a phone but hide scrollbars */
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+
+      /* Hide scrollbar in Firefox */
+      scrollbar-width: none;
+    }
+
+    /* Hide scrollbar in Chrome/Safari/Edge */
+    iframe::-webkit-scrollbar {
+      display: none;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="iphone">
+    <div class="notch"></div>
+    <!-- Set scrolling to 'yes' so it works but stays hidden -->
+    <iframe src="index.html" scrolling="yes"></iframe>
+  </div>
+</body>
+</html>
